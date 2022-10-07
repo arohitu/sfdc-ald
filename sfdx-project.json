@@ -2,11 +2,21 @@
     "packageDirectories": [
         {
             "path": "force-app",
+            "default": false
+        },
+        {
+            "path": "logger-framework",
+            "package": "Logger Framework",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
             "default": true
-        }
+        },
     ],
     "name": "My Company",
     "namespace": "",
     "sfdcLoginUrl": "https://login.salesforce.com",
-    "sourceApiVersion": "55.0"
+    "sourceApiVersion": "55.0",
+    "packageAliases": {
+        "Logger Framework": "0Ho8d000000GmmqCAC"
+    }
 }
